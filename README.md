@@ -13,7 +13,7 @@ $ npm install dotenv-ctrl --save-dev
 ### `add <key> <value>`
 
 ```bash
-$ dotenv-ctrl add NODE_ENV production
+$ npx dotenv-ctrl add NODE_ENV production
 $ cat .env
 NODE_ENV=production
 ```
@@ -24,7 +24,7 @@ NODE_ENV=production
 $ cat .env
 NODE_ENV=production
 NODE_DELETE_KEY=true
-$ dotenv-ctrl remove NODE_DELETE_KEY
+$ npx dotenv-ctrl remove NODE_DELETE_KEY
 $ cat .env
 NODE_ENV=production
 ```
@@ -34,7 +34,7 @@ NODE_ENV=production
 ### `-e`, `--env`
 
 ```bash
-$ dotenv-ctrl add NODE_ENV development -e .env.development
+$ npx dotenv-ctrl add NODE_ENV development -e .env.development
 $ cat .env.development
 NODE_ENV=development
 ```
