@@ -9,6 +9,9 @@
   "bugs": "https://github.com/p-chan/dotenv-ctrl/issues",
   "license": "MIT",
   "author": "P-Chan",
+  "files": [
+    "dist"
+  ],
   "bin": "./dist/index.js",
   "repository": {
     "type": "git",
