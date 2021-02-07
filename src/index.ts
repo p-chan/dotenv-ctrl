@@ -5,7 +5,6 @@ import { cac } from 'cac'
 import { version } from './version'
 import { isExist, read, write } from './dotenv'
 import { toObject } from './utils'
-import { parse } from 'dotenv/types'
 
 type Options = {
   '--': any[]
