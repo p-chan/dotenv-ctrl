@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
 import { cac } from 'cac'
+import path from 'path'
 
 import { version } from './version'
 import { isExist, read, write } from './dotenv'
@@ -22,24 +23,25 @@ cli
   })
   .action(async (key: string, value: string, options: Options) => {
     try {
+      const envFilePath = path.resolve(process.cwd(), options.e || '.env')
       const keyValueObject = toObject({ key, value })
 
-      if (!isExist({ path: options.e })) {
+      if (!isExist({ path: envFilePath })) {
         write({
-          path: options.e,
+          path: envFilePath,
           data: keyValueObject,
         })
 
         return process.exit(0)
       }
 
-      const parsed = read({ path: options.e })
+      const parsed = read({ path: envFilePath })
 
       if (parsed == undefined) throw new Error('dotenv is undefined')
       if (parsed[key]) throw new Error(`${key} is already`)
 
       write({
-        path: options.e,
+        path: envFilePath,
         data: {
           ...parsed,
           ...keyValueObject,
@@ -62,11 +64,13 @@ cli
   })
   .action(async (key: string, options: Options) => {
     try {
-      if (!isExist({ path: options.e })) {
-        throw new Error(`${options.e} is not found`)
+      const envFilePath = path.resolve(process.cwd(), options.e || '.env')
+
+      if (!isExist({ path: envFilePath })) {
+        throw new Error(`${envFilePath} is not found`)
       }
 
-      const parsed = read({ path: options.e })
+      const parsed = read({ path: envFilePath })
 
       if (parsed == undefined) throw new Error('dotenv is undefined')
       if (parsed[key] == undefined) throw new Error(`${key} is not found`)
@@ -74,7 +78,7 @@ cli
       delete parsed[key]
 
       write({
-        path: options.e,
+        path: envFilePath,
         data: parsed,
       })
 
