@@ -1,0 +1,7 @@
+{
+  "extends": "@stardust-configs/tsconfig/node12",
+  "compilerOptions": {
+    "outDir": "./dist",
+    "baseUrl": "./"
+  }
+}
