@@ -1,4 +1,4 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["@stardust-configs/renovate-config:lib"]
+  "extends": ["@stardust-configs/renovate-config:lib", ":label(dependencies)", ":assignee(p-chan)"]
 }
