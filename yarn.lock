@@ -719,10 +719,10 @@
   resolved "https://registry.yarnpkg.com/@stardust-configs/prettier-config/-/prettier-config-0.1.1.tgz#b79ee6bcd84c926501cd0f4e3b0f02f2bfb57415"
   integrity sha512-KVNeDikcETcc9IuK69kk66O01I/8TdtzY6T4RTcjoqPJtD1NLe/cQkWTTAY6vqXZ8blOwexkOLFv11pXrZTjRA==
 
-"@stardust-configs/tsconfig@0.1.1":
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/@stardust-configs/tsconfig/-/tsconfig-0.1.1.tgz#025aff2e7e6a0b8781c847f5847bed3a85d9caf6"
-  integrity sha512-CHRiCaETG0Q7Syrm/Uj5zdtRJtQWJiBbPaeH0VAezasBfZj97DHbuCE+2D8eo8YIHXtWbyJK4R1D51GhxsLcpw==
+"@stardust-configs/tsconfig@0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@stardust-configs/tsconfig/-/tsconfig-0.2.0.tgz#0c52c1c2cb81f3d07f9773e43fba63b94c36d809"
+  integrity sha512-tLca2RnuVxvwD9wqlAL81QcNR4uZdkkG5zmDJUN3e7kaIoUUx7lx6KT2D0Cp8y1dFXfhQnDroF5ykCGv9pnxYw==
 
 "@tootallnate/once@1":
   version "1.1.2"

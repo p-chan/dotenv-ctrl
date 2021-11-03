@@ -34,7 +34,7 @@
   },
   "devDependencies": {
     "@stardust-configs/prettier-config": "0.1.1",
-    "@stardust-configs/tsconfig": "0.1.1",
+    "@stardust-configs/tsconfig": "0.2.0",
     "@types/jest": "27.0.2",
     "@types/node": "16.11.6",
     "@types/rimraf": "3.0.2",
