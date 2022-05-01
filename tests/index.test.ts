@@ -1,3 +1,4 @@
+import { afterAll, beforeEach, describe, expect, it } from 'vitest'
 import fs from 'fs'
 import shell from 'shelljs'
 import rimraf from 'rimraf'
