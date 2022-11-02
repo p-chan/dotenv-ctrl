@@ -1,5 +1,5 @@
 {
-  "extends": "@stardust-configs/tsconfig/node16",
+  "extends": "@stardust-configs/tsconfig/node18",
   "compilerOptions": {
     "outDir": "./dist",
     "baseUrl": "./"
