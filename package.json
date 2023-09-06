@@ -21,6 +21,8 @@
     "build": "tsc",
     "clean": "rimraf ./dist",
     "dev": "ts-node ./src/index.ts",
+    "fix": "prettier --write .",
+    "lint": "prettier --check .",
     "prebuild": "npm run clean",
     "prepublishOnly": "npm run build",
     "test": "vitest",
