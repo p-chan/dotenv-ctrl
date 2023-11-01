@@ -37,7 +37,7 @@
   "devDependencies": {
     "@stardust-configs/prettier-config": "0.2.0",
     "@stardust-configs/tsconfig": "0.4.0",
-    "@types/node": "18.18.8",
+    "@types/node": "20.8.10",
     "@types/rimraf": "3.0.2",
     "@types/shelljs": "0.8.13",
     "prettier": "3.0.3",
