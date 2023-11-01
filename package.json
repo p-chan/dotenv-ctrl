@@ -39,7 +39,7 @@
     "@stardust-configs/tsconfig": "0.4.0",
     "@types/node": "18.18.1",
     "@types/rimraf": "3.0.2",
-    "@types/shelljs": "0.8.13",
+    "@types/shelljs": "0.8.14",
     "prettier": "3.0.3",
     "rimraf": "5.0.5",
     "shelljs": "0.8.5",
