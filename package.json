@@ -44,8 +44,8 @@
     "rimraf": "5.0.5",
     "shelljs": "0.8.5",
     "standard-version": "9.5.0",
-    "ts-node": "10.9.1",
-    "typescript": "5.2.2",
+    "tsx": "4.6.2",
+    "typescript": "5.3.3",
     "vitest": "0.34.6"
   },
   "standard-version": {
