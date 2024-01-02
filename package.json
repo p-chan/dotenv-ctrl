@@ -46,7 +46,7 @@
     "standard-version": "9.5.0",
     "tsx": "4.7.0",
     "typescript": "5.3.3",
-    "vitest": "0.34.6"
+    "vitest": "1.1.1"
   },
   "standard-version": {
     "scripts": {
