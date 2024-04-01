@@ -32,7 +32,7 @@
   },
   "dependencies": {
     "cac": "6.7.14",
-    "dotenv": "16.3.1"
+    "dotenv": "16.4.5"
   },
   "devDependencies": {
     "@stardust-configs/prettier-config": "0.3.0",
