@@ -41,7 +41,7 @@
     "@types/rimraf": "3.0.2",
     "@types/shelljs": "0.8.15",
     "prettier": "3.2.5",
-    "rimraf": "5.0.5",
+    "rimraf": "5.0.7",
     "shelljs": "0.8.5",
     "standard-version": "9.5.0",
     "tsx": "4.7.1",
